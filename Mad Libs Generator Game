@@ -1,0 +1,21 @@
+## Project Prerequisites
+- Basic knowledge of functions in Python and Tkinter is required for this Mad Libs Generator Project.
+
+### Download Mad Libs Generator
+Source code of Mad Libs Generator: [Python Mad Libs Generator Project Source Code](link_here)
+
+## Project File Structure
+1. **Install Tkinter**
+   - Tkinter is the graphical user interface toolkit designed for Python. It is the fastest and the easiest way to develop graphical user interface applications.
+   - To start the Python Mad Libs Generator project, we need to install Tkinter. To install Tkinter, run the following command on terminal or cmd:
+
+     ```
+     pip install tkinter
+     ```
+
+2. **Initializing Window and Creating Buttons**
+   ```python
+   Screen = Tk()
+   Screen.title("PythonGeeks Mad Libs Generator")
+   Screen.geometry('400x400')
+   ...
